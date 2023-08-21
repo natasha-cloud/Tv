@@ -1,0 +1,28 @@
+.bulb-container {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .bulb {
+    width: 80px;
+    height: 80px;
+    background-image: url('bulb_off.png'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .bulb-on {
+    background-image: url('bulb_on.png'); 
+    box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
